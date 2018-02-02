@@ -144,7 +144,7 @@ class XZTextView: UITextView {
     /// 左侧图片
     private lazy var image = UIImage.init(named: "表盘")
     /// 占位字符视图
-    private let placeHolderView = UITextView()
+    private let placeHolderView = UILabel()
     
     deinit {
         NotificationCenter.default.removeObserver(self)
@@ -194,7 +194,7 @@ extension XZTextView {
         fontSize = 17.0
         
         /// 设置行数
-        numOfLines = 6
+        numOfLines = 0
         
         // 监听 textView 的值的变化
         NotificationCenter.default.addObserver(self,
@@ -207,10 +207,6 @@ extension XZTextView {
     func placeholderView() {
         
         placeHolderView.frame = bounds
-        placeHolderView.isScrollEnabled = false
-        placeHolderView.showsVerticalScrollIndicator = false
-        placeHolderView.showsHorizontalScrollIndicator = false
-        placeHolderView.isUserInteractionEnabled = false
         placeHolderView.font = font
         placeHolderView.textColor = UIColor.lightGray
         placeHolderView.backgroundColor = UIColor.clear

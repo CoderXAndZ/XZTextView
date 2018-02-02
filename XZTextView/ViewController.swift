@@ -40,9 +40,9 @@ extension ViewController: UITextViewDelegate {
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
         
-        if ((textView as! XZTextView).hasImage != nil && (textView as! XZTextView).hasImage == true){
+        if (((textView as! XZTextView).hasImage != nil) && ((textView as! XZTextView).hasImage == true)){
+            
             if range.contains(0) { // text == "" 删除 "\n" 换行
-                
                 return false
             }else {
                 return true
@@ -67,15 +67,15 @@ extension ViewController {
         
         textView.numOfLines = 3
         
-//        textView.hasImage = true
+        textView.hasImage = false
         
         textView.placeHolder = "我就是个占位字符"
-        
+//
         textView.placeholderFontSize = 12.0
-        
+
         textView.placeholderColor = UIColor.red
-        
-        textView.fontSize = 15
+//
+//        textView.fontSize = 15
         
     }
     
