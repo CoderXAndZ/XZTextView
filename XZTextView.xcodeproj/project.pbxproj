@@ -13,6 +13,8 @@
 		846D532620219B2900A115EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D532520219B2900A115EF /* Assets.xcassets */; };
 		846D532920219B2900A115EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846D532720219B2900A115EF /* LaunchScreen.storyboard */; };
 		846D533420219B2900A115EF /* XZTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D533320219B2900A115EF /* XZTextViewTests.swift */; };
+		846D533F20219B6500A115EF /* XZTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D533E20219B6500A115EF /* XZTextView.swift */; };
+		84AE568C2021B09F00A9E730 /* 表盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AE568B2021B09F00A9E730 /* 表盘.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		846D532F20219B2900A115EF /* XZTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846D533320219B2900A115EF /* XZTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZTextViewTests.swift; sourceTree = "<group>"; };
 		846D533520219B2900A115EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846D533E20219B6500A115EF /* XZTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZTextView.swift; sourceTree = "<group>"; };
+		84AE568B2021B09F00A9E730 /* 表盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表盘.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				846D531E20219B2900A115EF /* AppDelegate.swift */,
 				846D532020219B2900A115EF /* ViewController.swift */,
+				846D533E20219B6500A115EF /* XZTextView.swift */,
+				84AE568B2021B09F00A9E730 /* 表盘.png */,
 				846D532220219B2900A115EF /* Main.storyboard */,
 				846D532520219B2900A115EF /* Assets.xcassets */,
 				846D532720219B2900A115EF /* LaunchScreen.storyboard */,
@@ -181,6 +187,7 @@
 			files = (
 				846D532920219B2900A115EF /* LaunchScreen.storyboard in Resources */,
 				846D532620219B2900A115EF /* Assets.xcassets in Resources */,
+				84AE568C2021B09F00A9E730 /* 表盘.png in Resources */,
 				846D532420219B2900A115EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846D533F20219B6500A115EF /* XZTextView.swift in Sources */,
 				846D532120219B2900A115EF /* ViewController.swift in Sources */,
 				846D531F20219B2900A115EF /* AppDelegate.swift in Sources */,
 			);
